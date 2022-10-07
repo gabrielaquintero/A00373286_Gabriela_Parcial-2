@@ -10,7 +10,7 @@ const int BUTTON=2;
   int HUMEDAD=A0;
 int SENSOR;
 
-//int isPressed=TRUE;
+int isPressed=BUTTON;
 
 
 void setup()
@@ -80,3 +80,7 @@ void loop()
 
 
 //DESACTIVAR CON BOTON
+
+if(isPressed){
+  analogWrite(PINBUZZ, LOW);
+}
