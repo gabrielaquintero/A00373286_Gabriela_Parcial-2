@@ -81,6 +81,6 @@ void loop()
 
 //DESACTIVAR CON BOTON
 
-if(isPressed){
+/*if(isPressed){
   analogWrite(PINBUZZ, LOW);
-}
+}*/
